@@ -60,8 +60,8 @@ Script to grab all setlists and save a csv for each show, subdivided by era and 
 library(lubridate)
 phishnet_key <- "B93C5925297AB520755D"
 
-start <- as.Date(0, origin="2003-01-01")
-end   <- as.Date(0, origin="2005-01-01")
+start <- as.Date(0, origin="1983-01-01")
+end   <- as.Date(0, origin="2001-01-01")
 
 
 theDate <- start #current date for loops
@@ -85,11 +85,12 @@ while(theDate <= end)
   if (!is.na(setlist)) #IF THERE WAS ACTUALLY A SHOW
   {
     setlist <- setlist[,1:2]
-    write.csv(setlist, paste(paste("c:/Users/rober/Documents/phish_setlistbot/datacollection/setlists/2", theYear, theDate, sep="/"), "csv", sep="."), row.names=FALSE,quote=FALSE)
+    write.csv(setlist, paste(paste("c:/Users/rober/Documents/GitHub/phish_setlistbot/datacollection/setlists/1", theYear, theDate, sep="/"), "csv", sep="."), row.names=FALSE)
   }
   theDate <- theDate + 1
 }
 
+theDate
 
 
 
