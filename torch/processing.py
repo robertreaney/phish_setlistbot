@@ -84,3 +84,32 @@ def input_label_split(data, sequence_length, overlap_inputs=True):
     #dataset = TensorDataset(torch.tensor(x), torch.tensor(y)) #not sure if putting these on GPU is actually better or not
     return x.reshape(num_sequences, sequence_length), y
 
+
+#this takes a tensor list and breaks it up. much faster
+def data_split(data, sequence_length):
+    """
+    Breaks data up from a long list to (input, label) pairs where len(input) = sequence_length
+    MIGRATES INPUT TO CUDA. OUTPUTS OBJECTS ON CUDA
+    """
+    assert type(data) == torch.Tensor, "This function only works for a torch.Tensor([x,y,z]) input"
+    data = data.cuda()
+    #x = []
+    #y = []
+    #output data is (input, output) = (x,y)
+    #unlike tf we will do this
+    #[1,2,3,4] with seq_len=3 => [1,2,3], [2,3,4]. aka we will overlap input label sequences. maybe this
+    num_sequences = len(data) // (sequence_length + 1)
+
+    assert num_sequences > 0, "You created zero data entries. Use more data or a smaller sequence_length"
+    for ii in range(num_sequences):
+        shift = sequence_length + 1
+        if ii == 0:
+            x = data[0:sequence_length]
+            y = data[1:(sequence_length+1)]
+        else:
+            #x.append(list(data[shift*ii : sequence_length+(shift*ii)]))
+            x = torch.vstack((x, data[shift*ii : sequence_length+(shift*ii)]))
+            #y.append(data[sequence_length+(ii*shift)])
+            y = torch.vstack((y, data[(ii*shift+1) : (shift+(ii*shift))]))
+
+    return x, y

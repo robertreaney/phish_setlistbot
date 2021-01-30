@@ -47,6 +47,7 @@ class NextNet(nn.Module):
         self.gru = nn.GRU(n_embed, hidden_nodes, hidden_layers)
         self.lstm = nn.LSTM(n_embed, hidden_nodes, hidden_layers)        
         self.dense = nn.Linear(hidden_nodes, vocab_size)
+        #self.softmax = nn.Softmax()
 
     def forward(self, inputs, states=None, return_states=False):
         x = self.embeddings(inputs)

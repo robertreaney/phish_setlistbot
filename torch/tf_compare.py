@@ -40,18 +40,55 @@ translate.ids_from_songs(['Possum', 'Sigma Oasis'])
 translate.ids_from_songs("Fluffhead")
 translate.songs_from_ids([0,1,2])
 translate.songs_from_ids([111111])
-len(translate.vocab_dict) #this returns 510, but length of true vocab doesn't include ' ' or 'unknown
+vocab_size = len(translate.vocab_dict) #this returns 510, but length of true vocab doesn't include ' ' or 'unknown
 # df transformation
 all_ids = translate.ids_from_songs(list(df))  #this does not accept pandas series, needs to be a list
 len(all_ids)
 
-from processing import input_label_split
+from processing import input_label_split, data_split
 #all_ids
+sequence_length = 100
+batch_size = 10
 
-x, y = input_label_split(all_ids, sequence_length=100, overlap_inputs=True)
+#x, y = input_label_split(all_ids, seq_length=sequence_length, overlap_inputs=False)
+x, y = data_split(all_ids, sequence_length=sequence_length)
+
 
 ds = torch.utils.data.TensorDataset(x,y)
-dataset = torch.utils.data.DataLoader(ds, batch_size=, shuffle=True)
+dataset = torch.utils.data.DataLoader(ds, batch_size=10, shuffle=True)
 
 xb, yb = next(iter(dataset))  #(batchsize x sequence_length), batchsize
+xb.shape
+from networks import NextNet
+model = NextNet(vocab_size, 1000, 1)
+model.cuda()
 
+predsb = model(xb) #LOGITS
+
+predsb.shape
+predsb[0].shape
+predsb[0].max()
+
+#convert to probs an view song list
+sm = nn.Softmax()
+probs = sm(predsb[0])
+probs.shape
+probs.max()
+probs.min()
+classes = torch.multinomial(probs, num_samples=1).reshape(-1)
+setlistids = list(classes.cpu().numpy())
+translate.songs_from_ids(setlistids)   #it works!
+#####
+predsb[0].shape
+classes
+yb[0]
+#######
+# set up model training
+yb[0].shape
+predsb
+loss = F.cross_entropy
+loss = nn.CrossEntropyLoss
+loss(yb[0], predsb[0])
+
+classes
+loss(yb[0], classes)

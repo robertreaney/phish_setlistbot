@@ -14,12 +14,12 @@ from torch.utils.data import TensorDataset
 # number 1 sounds less awful for now. later i will see if 2 does better
 dev = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 torch.device()
-data = pd.read_csv("final_nosoundchecks_3poin0.csv")
-data
+data = pd.read_csv("C:/Users/rober/Documents/projects/phish_setlistbot/datacollection/final_nosoundchecks_3point0.csv")
+#data
 
 train = data[data.date < "2019-06-11"]
 val = data[(data.date >= "2019-06-11") & (data.date < "2019-07-01")]
-val
+#val
 test = data[(data.date >= "2019-07-01") & (data.date < "2019-08-28")]
 
 test = test.Song
@@ -29,7 +29,6 @@ val = list(val)
 train = train.Song
 train = list(train) #now data is a list of songs
 len(train) #now we have list of just songs
-
 
 class Vocabulary():
     """
@@ -43,7 +42,9 @@ class Vocabulary():
         #make the vocab input have no repeats if user messed up
         songs = sorted(set(songs)) #make sure no repeats. sort just for better reference
         #make vocab dict
-        self.vocab_dict = {song: (i+1) for i, song in enumerate(songs)}
+        self.vocab_dict = {song: (i+2) for i, song in enumerate(songs)}
+        self.vocab_dict[''] = 0
+        self.vocab_dict['1'] = 'Unknown'
         #make id dict
         self.id_dict = dict()
         for song in self.vocab_dict:
@@ -66,11 +67,11 @@ class Vocabulary():
             try:
                 id_series.append(self.vocab_dict[ii])
             except:
-                id_series.append(0) #in case item is not in our dictionary, return 0
+                id_series.append(1) #in case item is not in our dictionary, return 0
         if(want_list):
-            return id_series
+            return torch.tensor(id_series)
         else:
-            return id_series[0]
+            return torch.tensor(id_series[0])
 
     #as named, retreives songs from ids
     def songs_from_ids(self, data):
@@ -96,6 +97,7 @@ class Vocabulary():
             return song_series
         else:
             return song_series[0]
+
 
 translate = Vocabulary(np.asarray(train))
 
@@ -289,4 +291,7 @@ winners
 count
 targets
 newshow
+
+
+
 
