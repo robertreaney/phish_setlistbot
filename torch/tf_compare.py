@@ -84,11 +84,19 @@ classes
 yb[0]
 #######
 # set up model training
-yb[0].shape
+yb.shape
 predsb
 loss = F.cross_entropy
-loss = nn.CrossEntropyLoss
+loss = nn.CrossEntropyLoss(reduction='mean')
+loss = nn.NLLLoss()
+loss(yb[0], predsb[0])
 loss(yb[0], predsb[0])
 
-classes
-loss(yb[0], classes)
+probs = sm(predsb)
+probs
+
+loss(yb, probs)
+loss([1,2], [[0.05, 0.95, 0], [0.1, 0.8, 0.1]])
+
+
+
