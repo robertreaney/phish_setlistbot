@@ -1,0 +1,344 @@
+46 Days	Phish	110	2003-01-02	2020-02-22	28
+555	Phish	52	2013-10-31	2019-12-04	39
+A Song I Heard the Ocean Sing	Phish	39	2004-06-17	2019-12-04	39
+AC/DC Bag	Phish	318	1986-04-01	2019-12-31	32
+Access Me	Phish	6	2004-06-26	2019-08-31	45
+Acoustic Army	Phish	27	1995-06-07	1995-12-08	929
+All of These Dreams	Phish	12	2003-01-03	2018-10-17	90
+All Things Reconsidered	Phish	81	1991-09-25	1997-02-23	835
+Alumni Blues	Phish	109	1985-03-16	2019-12-08	36
+Ambient Jam	Phish	1	1998-08-15	1998-08-15	723
+Amidst the Peals of Laughter	Phish	1	2013-10-31	2013-10-31	272
+Anarchy	Phish	11	1985-03-04	1989-10-14	1678
+Antelope	Phish	Alias of Run Like an Antelope
+Anything But Me	Phish	12	2003-01-04	2011-08-15	355
+Army of One	Phish	22	2003-07-12	2019-06-26	59
+Art Jam	Phish	1	1997-08-17	1997-08-17	787
+ASIHTOS	Phish	Alias of A Song I Heard the Ocean Sing
+Ass Handed	Phish	15	2016-07-15	2019-12-28	35
+ATR	Phish	Alias of All Things Reconsidered
+Axilla	Phish	108	1992-11-19	2019-12-31	32
+Axilla (Part II)	Phish	38	1994-04-16	1995-12-31	918
+Band/Crew Football Theme Song	Phish	2	1991-04-16	1992-05-02	1325
+Bathtub Gin	Phish	275	1989-05-26	2020-02-21	29
+BBFCFM	Phish	Alias of Big Black Furry Creature from Mars
+Beauty of a Broken Heart	Phish	13	2009-03-07	2019-12-29	34
+Big Ball Jam	Phish	102	1992-11-19	1994-12-09	1007
+Big Black Furry Creature from Mars	Phish	129	1987-08-21	2019-11-30	42
+Billy Breathes	Phish	62	1995-09-27	2019-06-22	62
+Birds of a Feather	Phish	121	1998-04-02	2019-12-29	34
+Bittersweet Motel	Phish	18	1998-07-21	2019-12-06	38
+Black-Eyed Katy	Phish	7	1997-11-13	1997-12-30	761
+Blaze On	Phish	49	2015-07-21	2020-02-21	29
+Bliss	Phish	1	2018-12-30	2018-12-30	75
+BOTT	Phish	Alias of Back on the Train
+Bouncing Around the Room	Phish	469	1990-01-20	2019-07-10	50
+Breath and Burning	Phish	16	2016-06-26	2020-02-23	27
+Brian and Robert	Phish	48	1998-06-30	2019-12-08	36
+Brother	Phish	59	1991-09-25	2017-12-30	117
+Buffalo Bill	Phish	20	1992-11-21	2019-07-14	47
+Bundle of Joy	Phish	10	1987-05-11	1989-11-03	1670
+Buried Alive	Phish	157	1990-09-13	2019-12-31	32
+Bye Bye Foot	Phish	5	1997-06-14	2019-11-29	43
+Camel Walk	Phish	59	1984-11-03	2019-07-12	49
+Can't Always Listen	Phish	2	2015-12-30	2019-08-30	46
+Carini	Phish	111	1997-02-17	2020-02-22	28
+Carolina in the Morning	Phish	Alias of Carolina
+Cars Trucks Buses	Phish	81	1995-09-27	2019-12-04	39
+Catapult	Phish	34	1992-04-17	2019-07-14	47
+Cavern	Phish	456	1990-03-28	2020-02-20	30
+Chalk Dust Torture	Phish	474	1991-02-01	2020-02-22	28
+Chalk Dust Torture Reprise	Phish	4	1994-12-10	2019-12-28	35
+Character Zero	Phish	220	1996-06-06	2019-12-28	35
+Clod	Phish	11	1986-10-15	1989-11-10	1667
+Colonel Forbin's Ascent	Phish	125	1988-03-12	2017-07-30	128
+Contact	Phish	170	1988-06-15	2019-12-30	33
+Cool Amber and Mercury	Phish	5	2018-10-31	2019-12-07	37
+Costume Contest	Phish	3	1988-10-29	1994-10-31	1033
+Crowd Control	Phish	20	2003-11-28	2020-02-23	27
+Dave's Energy Guide	Phish	20	1985-04-06	1995-06-28	982
+David Bowie	Phish	451	1986-10-31	2020-02-23	27
+Dear Mrs. Reagan	Phish	13	1985-11-14	1989-01-18	1775
+Death Don't Hurt Very Long	Phish	9	2018-10-31	2019-12-06	38
+Demand	Phish	16	1994-04-09	2016-07-20	170
+Destiny Unbound	Phish	48	1990-09-14	2020-02-20	30
+Devotion To a Dream	Phish	20	2013-10-31	2016-10-15	160
+Digital Delay Loop Jam	Phish	10	1994-04-08	1997-08-17	787
+Dinner and a Movie	Phish	147	1987-11-19	2017-08-04	125
+Divided Sky	Phish	420	1987-05-11	2020-02-23	27
+Dog Faced Boy	Phish	53	1994-04-14	2019-12-28	35
+Dog Gone Dog	Phish	Alias of Dog Log
+Dog Log	Phish	23	1985-10-30	2012-06-20	337
+Dogs Stole Things	Phish	38	1997-06-13	2019-07-10	50
+Don't Get Me Wrong	Phish	3	1990-10-06	1990-12-28	1502
+Down with Disease	Phish	282	1993-12-31	2019-12-28	35
+Dr. Gabel	Phish	1	2010-06-22	2010-06-22	425
+Drive-In Jam	Phish	1	2015-08-22	2015-08-22	199
+Driver	Phish	35	1998-10-17	2019-11-29	43
+Eliza	Phish	22	1990-09-15	1992-05-14	1316
+End of Session	Phish	1	2017-07-25	2017-07-25	132
+Esther	Phish	126	1988-09-12	2017-07-30	128
+Evening Song	Phish	2	2019-12-28	2020-02-22	28
+Everything is Hollow	Phish	3	2018-10-31	2019-12-08	36
+Faht	Phish	12	1992-11-22	1995-12-02	933
+Farmhouse	Phish	77	1997-11-16	2020-02-23	27
+Fast Enough for You	Phish	76	1992-11-19	2019-06-30	56
+Fee	Phish	280	1987-08-09	2020-02-23	27
+Fikus	Phish	5	1998-07-02	1998-11-07	708
+Fire Up the Ganja	Phish	1	1985-03-04	1985-03-04	1965
+Fishman's Gull Poem	Phish	Alias of Gaul Swerves and the Rest is Everything Else
+Flat Fee	Phish	21	1987-08-09	1991-07-27	1420
+Flatbed Truck Jam	Phish	1	1996-08-16	1996-08-16	886
+Flip	Phish	Alias of Glide II
+Fluff's Travels	Phish	1	1989-12-30	1989-12-30	1651
+Fluffhead	Phish	259	1984-12-01	2019-12-31	32
+Fly Famous Mockingbird	Phish	125	1988-02-07	2017-07-30	128
+Foam	Phish	344	1988-10-29	2019-07-09	51
+Fooled by Images	Phish	Alias of Waking Up
+Frankie Says	Phish	29	1998-04-02	2015-08-08	208
+Free	Phish	191	1995-05-16	2020-02-20	30
+Freeworld	Phish	1	1987-03-06	1987-03-06	1910
+Friday	Phish	13	2003-01-04	2016-10-25	153
+Friends	Phish	2	2016-06-29	2016-07-10	175
+Fuck Your Face	Phish	16	1987-04-29	2019-07-13	48
+Fuckerpants	Phish	Alias of Prince Caspian
+Fuego	Phish	66	2013-10-31	2020-02-23	27
+Gaul Swerves and the Rest is Everything Else	Phish	1	1989-10-26	1989-10-26	1674
+Get Back on the Train	Phish	Alias of Back on the Train
+Ghost	Phish	180	1997-06-13	2020-02-20	30
+Glide	Phish	115	1991-09-27	2019-07-14	47
+Glide II	Phish	2	1995-05-16	2018-12-30	75
+Golgi Apparatus	Phish	463	1986-10-12	2019-11-30	42
+Grind	Phish	25	1998-12-30	2019-12-07	37
+Guelah Papyrus	Phish	204	1991-02-01	2019-12-08	36
+Gumbo	Phish	108	1990-09-28	2019-12-28	35
+Guy Forget	Phish	2	2000-10-01	2011-09-04	350
+Guyute	Phish	129	1994-10-07	2019-12-07	37
+Ha Ha Ha	Phish	32	1995-05-16	2017-08-06	123
+Halfway to the Moon	Phish	44	2010-06-19	2019-12-07	37
+Hall in Solace	Phish	Alias of Paul and Silas
+Halley's Comet	Phish	133	1986-05-17	2019-12-31	32
+Harpua	Phish	64	1987-05-11	2017-07-30	128
+Harry Hood	Phish	387	1985-10-30	2020-02-22	28
+Home	Phish	7	2016-10-14	2019-07-02	55
+Horn	Phish	170	1990-05-24	2019-11-30	42
+I Always Wanted It This Way	Phish	13	2016-10-15	2020-02-21	29
+I Am Hydrogen	Phish	336	1985-04-06	2019-08-31	45
+I Been Around	Phish	7	2009-08-16	2019-12-06	38
+I Didn't Know	Phish	258	1987-11-18	2019-11-30	42
+I Don't Care	Phish	2	1997-06-16	1997-06-20	820
+I Will Set You Free	Phish	Alias of Punch Me in the Eye
+I've Turned Bad	Phish	1	1989-05-09	1989-05-09	1726
+Icculus	Phish	27	1986-04-01	2019-07-14	47
+Idea	Phish	1	2010-06-15	2010-06-15	430
+If I Could	Phish	57	1994-04-04	2019-06-18	65
+In a Hole	Phish	8	1989-10-20	1989-12-16	1653
+In an Intensive Care Unit	Phish	Alias of NICU
+In The Good Old Summer Time	Phish	2	2017-07-14	2017-07-30	128
+Infinite	Phish	2	2018-07-21	2018-08-07	102
+Intro	Phish	1	2014-10-31	2014-10-31	227
+It's Ice	Phish	239	1991-09-25	2019-12-08	36
+JÃ¤germeister Song	Phish	2	1990-04-18	1990-05-06	1583
+Jennifer Dances	Phish	4	1999-12-05	2014-07-27	245
+Joy	Phish	47	2009-06-07	2019-11-29	43
+Julius	Phish	225	1994-04-04	2019-12-04	39
+Keeping It Real	Phish	2	2018-07-25	2018-09-02	92
+Keyboard Army	Phish	14	1995-09-27	2015-09-06	195
+Keyboard Cavalry	Phish	Alias of Keyboard Army
+Kill Devil Falls	Phish	92	2009-06-02	2019-12-29	34
+Killer Joe	Phish	1	1990-03-17	1990-03-17	1613
+Kung	Phish	38	1989-10-31	2019-11-30	42
+Lawn Boy	Phish	213	1989-11-30	2019-11-30	42
+Leaves	Phish	3	2017-07-14	2017-09-03	120
+Lengthwise	Phish	31	1992-11-19	2019-07-09	51
+Leprechaun	Phish	3	1993-07-15	1993-07-31	1152
+Let's Go	Phish	2	2016-07-01	2016-10-21	156
+Letter to Jimmy Page	Phish	92	1985-04-06	2019-12-08	36
+Lifeboy	Phish	56	1993-02-03	2020-02-21	29
+Limb By Limb	Phish	148	1997-06-13	2019-12-06	38
+Llama	Phish	307	1990-10-27	2019-11-30	42
+Love Is What We Are	Phish	1	2017-07-14	2017-07-14	140
+Lucy Had A Lumpy Head	Phish	Alias of Carini
+Lushington	Phish	8	1986-10-15	1987-09-02	1894
+Magilla	Phish	70	1990-09-13	2003-07-22	529
+Makisupa Policeman	Phish	105	1984-10-23	2020-02-22	28
+Mallory	Phish	1	1995-12-15	1995-12-15	924
+Marijuana Hot Chocolate	Phish	Alias of Foam
+Martian Monster	Phish	34	2014-10-31	2019-12-31	32
+Maze	Phish	314	1992-03-06	2019-12-31	32
+McGrupp and the Watchful Hosemasters	Phish	114	1985-04-06	2018-07-24	110
+Meat	Phish	38	1998-07-02	2020-02-23	27
+Meatstick	Phish	66	1997-06-25	2019-11-29	43
+Melt	Phish	Alias of Split Open and Melt
+Mercury	Phish	26	2015-07-22	2019-12-31	32
+Merry Pranksters Jam	Phish	1	1997-08-14	1997-08-14	789
+Metal Bagel Death	Phish	1	1990-05-04	1990-05-04	1585
+Mexican Cousin	Phish	15	2003-01-02	2019-07-06	52
+Mike's Song	Phish	509	1985-03-16	2019-12-30	33
+Miss You	Phish	13	2016-06-24	2019-12-03	40
+MMGAMOIO	Phish	Alias of My Mind's Got a Mind of its Own
+Mock Song	Phish	3	2003-07-12	2018-10-19	89
+More	Phish	25	2016-10-14	2020-02-23	27
+Mound	Phish	114	1992-03-06	2019-12-08	36
+My Friend, My Friend	Phish	155	1992-03-06	2019-12-29	34
+My Left Toe	Phish	4	1999-06-30	1999-07-25	668
+My Problem Right There	Phish	3	2010-10-10	2010-10-22	396
+My Sweet One	Phish	247	1989-09-09	2019-12-08	36
+N2O	Phish	Alias of NO2
+Never	Phish	1	1998-10-17	1998-10-17	719
+NICU	Phish	142	1992-03-06	2019-11-29	43
+No Dogs Allowed	Phish	6	1988-07-23	1990-04-21	1593
+No Men In No Man's Land	Phish	49	2015-07-21	2020-02-21	29
+NO2	Phish	8	1994-06-25	2015-09-06	195
+Nowhere Fast	Phish	1	1989-05-09	1989-05-09	1726
+Oblivious Fool	Phish	Alias of Olivia's Pool
+Ocelot	Phish	87	2009-05-31	2019-12-07	37
+Olivia's Pool	Phish	7	1997-06-13	2019-07-14	47
+Party Time	Phish	30	2009-08-15	2019-12-06	38
+Passing Through	Phish	4	2018-10-31	2020-02-23	27
+Piano Duet	Phish	2	1993-07-28	1994-04-22	1112
+Pigtail	Phish	5	2010-12-28	2018-07-24	110
+Piper	Phish	173	1997-06-14	2020-02-21	29
+Play by Play	Phish	3	2018-10-31	2019-06-25	60
+Poor Heart	Phish	306	1988-08-04	2019-12-01	41
+Possum	Phish	532	1985-09-27	2020-02-21	29
+Prep School Hippie	Phish	5	1985-09-27	1986-12-06	1919
+Prince Caspian	Phish	155	1995-06-08	2019-12-31	32
+Punch Me in the Eye	Phish	1	1987-04-24	1987-04-24	1907
+Punch You in the Eye	Phish	157	1989-08-17	2019-12-31	32
+PYITE	Phish	Alias of Punch You in the Eye
+Quadrophonic Toppling	Phish	1	1999-12-31	1999-12-31	620
+Reba	Phish	385	1989-10-01	2019-12-07	37
+Rescue Squad	Phish	1	2019-12-31	2019-12-31	32
+Revolution	Phish	3	1985-04-06	1985-10-17	1949
+Rhombus Narration	Phish	12	1989-09-09	1991-11-15	1380
+Rift	Phish	292	1990-02-25	2019-12-28	35
+Rock A William	Phish	5	1997-02-13	1997-08-10	792
+Roggae	Phish	95	1998-06-30	2019-12-01	41
+Roll Like a Cantaloupe	Phish	4	1986-10-15	1991-11-14	1381
+Rotation Jam	Phish	4	1995-11-25	1997-08-10	792
+Round Room	Phish	6	2003-01-02	2016-06-22	187
+Run Like an Antelope	Phish	458	1985-04-06	2020-02-20	30
+Runaway Jim	Phish	383	1990-03-28	2019-12-04	39
+Running Out of Time	Phish	2	2016-10-19	2016-10-24	154
+Sample in a Jar	Phish	292	1993-02-04	2019-12-04	39
+Sanity	Phish	42	1986-10-15	2019-06-23	61
+Say It To Me S.A.N.T.O.S.	Phish	12	2018-10-31	2020-02-20	30
+Say Something	Phish	2	2013-07-27	2013-08-30	284
+Scent of a Mule	Phish	134	1994-04-04	2019-11-29	43
+Scents and Subtle Sounds	Phish	29	2003-07-07	2019-12-06	38
+Secret Language Instructions	Phish	10	1992-03-06	1993-03-16	1211
+Setting Sail	Phish	4	1991-04-20	1994-07-15	1054
+Seven Below	Phish	46	2002-12-31	2019-07-10	50
+Shade	Phish	14	2015-07-21	2020-02-20	30
+Shafty	Phish	6	1998-04-05	2020-02-21	29
+Shipwreck	Phish	2	2014-10-31	2020-02-20	30
+Silent in the Morning	Phish	183	1992-03-07	2020-02-23	27
+Simple	Phish	178	1994-05-27	2020-02-23	27
+Sing Monica	Phish	8	2013-10-31	2016-07-20	170
+Skippy the Wondermouse	Phish	4	1984-12-01	1985-10-30	1946
+Slave to the Traffic Light	Phish	254	1984-12-01	2019-12-30	33
+Sleep	Phish	18	1998-10-17	2019-11-29	43
+Sleeping Monkey	Phish	90	1992-03-06	2019-06-28	58
+Sleepwalk	Phish	Alias of Gaul Swerves and the Rest is Everything Else
+Snow	Phish	1	2013-10-31	2013-10-31	272
+SOAM	Phish	Alias of Split Open and Melt
+Sparkle	Phish	327	1991-09-25	2019-12-31	32
+Split Open and Melt	Phish	321	1989-02-17	2019-12-07	37
+Spock's Brain	Phish	10	1995-05-16	2019-07-14	47
+Spread It 'Round	Phish	2	2003-07-15	2003-08-02	520
+Stash	Phish	419	1990-09-13	2019-11-30	42
+Stealing Time From the Faulty Plan	Phish	76	2009-06-02	2019-12-08	36
+Steam	Phish	43	2011-06-04	2020-02-20	30
+Steep	Phish	32	1996-10-16	2019-07-14	47
+Storage Jam	Phish	1	2011-07-02	2011-07-02	363
+Strange Design	Phish	64	1995-05-16	2019-12-07	37
+Stray Dog	Phish	4	2018-10-31	2019-09-01	44
+Sugar Shack	Phish	29	2009-06-07	2019-07-10	50
+Summer of '89	Phish	4	2010-06-18	2010-10-12	401
+Sunshine of Your Feeling	Phish	1	2017-08-05	2017-08-05	124
+Suzy Greenberg	Phish	435	1987-02-13	2019-12-06	38
+Swept Away	Phish	32	1996-10-16	2019-07-14	47
+T.V. Theme	Phish	2	1985-09-27	1985-10-17	1949
+Talk	Phish	14	1996-08-05	2009-11-01	453
+Taste	Phish	132	1995-06-07	2019-09-01	44
+Taste That Surrounds	Phish	14	1995-10-24	1995-12-29	920
+Tela	Phish	88	1988-03-12	2019-06-30	56
+The Asse Festival	Phish	24	1990-09-13	1991-04-27	1446
+The Birds	Phish	5	2014-10-31	2018-07-22	111
+The Birdwatcher	Phish	4	2010-12-28	2015-09-06	195
+The Chase	Phish	7	1987-10-14	1990-06-07	1563
+The Chinese Water Torture	Phish	1	2014-10-31	2014-10-31	227
+The Connection	Phish	5	2009-06-19	2019-12-07	37
+The Curtain	Phish	121	1988-02-24	2019-12-08	36
+The Curtain With	Phish	39	1987-08-09	2019-06-30	56
+The Dickie Scotland Song	Phish	1	2004-08-15	2004-08-15	490
+The Divided Sky	Phish	Alias of Divided Sky
+The Dogs	Phish	14	2014-10-31	2019-12-07	37
+The Final Hurrah	Phish	9	2018-10-31	2019-12-30	33
+The Fog That Surrounds	Phish	8	1995-09-27	1995-10-17	961
+The Happy Whip and Dung Song	Phish	1	1999-07-24	1999-07-24	669
+The Haunted House	Phish	1	2014-10-31	2014-10-31	227
+The Horse	Phish	169	1992-03-07	2020-02-23	27
+The Landlady	Phish	211	1990-09-13	2020-02-20	30
+The Line	Phish	35	2013-10-31	2018-10-21	87
+The Lizards	Phish	317	1988-01-27	2020-02-21	29
+The Man Who Stepped Into Yesterday	Phish	81	1987-05-11	2019-12-01	41
+The Mango Song	Phish	101	1989-03-30	2019-06-30	56
+The Moma Dance	Phish	166	1998-06-30	2020-02-20	30
+The Oh Kee Pa Ceremony	Phish	217	1989-08-12	2018-10-20	88
+The Practical Song	Phish	2	1988-09-12	1989-05-26	1718
+The Sloth	Phish	173	1987-08-09	2019-12-06	38
+The Squirming Coil	Phish	358	1990-01-20	2020-02-23	27
+The Unsafe Bridge	Phish	1	2014-10-31	2014-10-31	227
+The Very Long Fuse	Phish	4	2014-10-31	2017-07-26	131
+The Vibration of Life	Phish	22	1992-11-23	1996-11-19	859
+The Wedge	Phish	112	1993-02-03	2019-12-29	34
+Theme From the Bottom	Phish	164	1995-05-16	2019-12-04	39
+Things People Do	Phish	9	2016-06-28	2019-07-09	51
+Thread	Phish	4	2017-07-16	2019-07-06	52
+Tide Turns	Phish	7	2016-06-29	2018-07-28	107
+Timber	Phish	2	2014-10-31	2016-07-10	175
+TMWSIY	Phish	Alias of The Man Who Stepped Into Yesterday
+Tomorrow's Song	Phish	1	2009-11-27	2009-11-27	446
+Tower Jam	Phish	1	2003-08-02	2003-08-02	520
+Train Song	Phish	56	1996-07-21	2019-12-07	37
+Trust Fund Baby	Phish	Alias of Prep School Hippie
+TTE	Phish	Alias of Time Turns Elastic
+Tube	Phish	161	1990-09-13	2020-02-22	28
+Turtle in the Clouds	Phish	10	2018-10-31	2020-02-21	29
+Tweezer	Phish	375	1990-03-28	2020-02-22	28
+Tweezer Reprise	Phish	289	1991-02-01	2020-02-22	28
+Twenty Years Later	Phish	37	2009-06-05	2019-12-28	35
+Twist	Phish	145	1997-06-14	2020-02-22	28
+Two Versions of Me	Phish	7	2003-07-12	2009-11-27	446
+Vacuum Solo	Phish	8	1992-03-30	1993-05-29	1168
+Vultures	Phish	42	1997-06-13	2019-07-14	47
+Wading in the Velvet Sea	Phish	97	1997-06-13	2019-07-05	53
+Wait	Phish	3	1991-10-31	1992-05-14	1316
+Waiting All Night	Phish	32	2013-10-31	2019-06-29	57
+Waking Up	Phish	1	1997-06-14	1997-06-14	823
+Waking Up Dead	Phish	8	2016-06-29	2018-07-25	109
+Walfredo	Phish	7	1997-02-13	2014-10-27	230
+Walls of the Cave	Phish	62	2002-12-31	2019-12-29	34
+Waste	Phish	87	1996-06-06	2020-02-22	28
+Water in the Sky	Phish	82	1997-06-13	2019-12-04	39
+Waves	Phish	47	2002-12-31	2020-02-22	28
+We Are Come to Outlive Our Brains	Phish	8	2018-10-31	2019-12-06	38
+Weekapaug Groove	Phish	481	1988-07-23	2020-02-21	29
+Weigh	Phish	43	1992-03-07	2019-12-28	35
+What Things Seem	Phish	2	2010-10-11	2010-12-27	389
+What You Will	Phish	Alias of In a Hole
+What's the Use?	Phish	49	1999-07-04	2019-12-31	32
+Who Do? We Do!	Phish	15	1987-04-24	1990-03-10	1616
+Wilson	Phish	281	1986-10-12	2019-12-30	33
+Windham Hell	Phish	Alias of Faht
+Windy City	Phish	1	2009-08-11	2009-08-11	461
+Wingsuit	Phish	38	2013-10-31	2020-02-23	27
+Wolfman's Brother	Phish	206	1994-04-04	2019-12-31	32
+Wombat	Phish	18	2013-10-31	2019-11-30	42
+Yarmouth Road	Phish	29	2013-07-05	2019-12-29	34
+YEM	Phish	Alias of You Enjoy Myself
+You Enjoy Myself	Phish	591	1986-02-03	2020-02-20	30
+You Never Know	Phish	1	2013-10-31	2013-10-31	272
+Your Pet Cat	Phish	16	2014-10-31	2020-02-22	28
