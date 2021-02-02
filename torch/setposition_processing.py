@@ -66,7 +66,6 @@ inputs, outputs = make_openclose_df(df)
 make_openclose_df(df[df.show==1000]) 
 
 
-assert "Set 1" == "Set 1"
 ########################
 #do something similar but have (setlist, y) row for every set1/set2/encore song appearance
 #also should probably be done with tensors to be faster

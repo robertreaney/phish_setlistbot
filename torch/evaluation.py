@@ -2,10 +2,9 @@ import numpy as np
 import torch
 import pandas as pd
 from collections import Counter
-import statistics
 
 ####### make class to handle the predict/eval/update loop for implementing model
-class Evaluator():
+class NextNetEvaluator():
     def __init__(self, model, translate): ##lets make eval_feed an np.array(df[-sequence_length:])
         """
         NextNet evaluation class. This object handles predictions by holding an array of the most recent songs.

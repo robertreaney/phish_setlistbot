@@ -6,9 +6,9 @@ import math
 import os
 import time
 
-embedding_dim = 1000
+embedding_dim = 10
 rnn_units = 1000
-seq_length = 200
+seq_length = 25
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
@@ -23,7 +23,7 @@ if gpus:
     print(e)
 
 
-data = pd.read_csv("datacollection/final.csv")
+data = pd.read_csv("C:/Users/rober/Documents/projects/phish_setlistbot/datacollection/final.csv")
 #data.head()
 
 test = []
@@ -124,7 +124,7 @@ len(df)
 #len(df)/100
 #create training batches
 #shuffle data and pack into batches
-batch_size = 1
+batch_size = 5
 buffer = math.floor(len(df)/seq_length)
 buffer
 
@@ -221,8 +221,8 @@ checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
 )
 
 #execute training
-EPOCHS = 20
-history = model.fit(dataset, epochs=EPOCHS, callbacks=[checkpoint_callback])
+EPOCHS = 40
+history = model.fit(dataset, epochs=EPOCHS)#, callbacks=[checkpoint_callback])
 
 
 ######
@@ -366,5 +366,5 @@ for ii, item in enumerate(test):
 
     correct, correct_preds = eval_preds(next_show, test[ii])
     results[ii] = [correct, correct_preds]
-
+results
     results[6]
