@@ -16,11 +16,19 @@ import networks
 import evaluation
 
 
+import timeit
+
+
 
 ######################
-embedding_dim = 50
-rnn_units = 1000
-seq_length = 200
+#embedding_dim = 50
+# hidden_nodes = 1000
+# hidden_layers = 1
+# sequence_length = 100
+# batch_size = 20
+# learning_rate = .1
+
+
 
 # compare outputs to tf
 
@@ -50,17 +58,17 @@ translate = Vocab(df)
 # translate.songs_from_ids([111111])
 vocab_size = len(translate.vocab_dict) #this returns 510, but length of true vocab doesn't include ' ' or 'unknown
 # df transformation
-all_ids = translate.ids_from_songs(list(df))  #this does not accept pandas series, needs to be a list
-len(all_ids)
+train_ids = translate.ids_from_songs(list(df))  #this does not accept pandas series, needs to be a list
+len(train_ids)
 val_ids = translate.ids_from_songs(list(val))
 
-
+val_ids
 #all_ids
-sequence_length = 100
-batch_size = 10
+# np.savetxt("raydata/val.csv", val_ids.numpy(), delimiter=",")
+# np.savetxt("raydata/train.csv", train_ids.numpy(), delimiter=",")
 
-#x, y = input_label_split(all_ids, seq_length=sequence_length, overlap_inputs=False)
-x, y = data_split(all_ids, sequence_length=sequence_length)
+#x, y = input_label_split(train_ids, seq_length=sequence_length, overlap_inputs=False)
+x, y = data_split(train_ids, sequence_length=sequence_length)
 xv, yv = data_split(val_ids, sequence_length=sequence_length)
 
 ds = torch.utils.data.TensorDataset(x,y)
@@ -72,10 +80,10 @@ datasetv = torch.utils.data.DataLoader(dsv, batch_size=batch_size, shuffle=True)
 
 #xb, yb = next(iter(dataset))  #(batchsize x sequence_length), batchsize
 #xb.shape
-model = networks.NextNet(vocab_size, 1000, 1)
+model = networks.NextNet(vocab_size, hidden_nodes, hidden_layers)
 model.cuda()
-lr = .1
-opt = torch.optim.Adam(model.parameters(), lr=lr)
+
+opt = torch.optim.Adam(model.parameters(), lr=learning_rate)
 loss_f = nn.CrossEntropyLoss()
 
 #predsb = model(xb) #LOGITS
@@ -98,4 +106,5 @@ for ii in range(25):
     succeses, number = evals.eval_preds(newshow, test[0])
     winners.append(number)
 statistics.mean(winners)
+
 
