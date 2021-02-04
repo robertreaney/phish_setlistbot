@@ -29,11 +29,11 @@ import os
 def train(config, epochs=10):
     #dev = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
     #writer = SummaryWriter()
-    model = networks.NextNet(5, config['hidden_nodes'], config['hidden_layers'])
+    model = networks.NextNet(510, config['hidden_nodes'], config['hidden_layers'])
     model.cuda()
 
     opt = torch.optim.Adam(model.parameters(), lr=config['learning_rate'])
-    loss_f = nn.CrossEntropyLoss() 
+    loss_func = nn.CrossEntropyLoss() 
 
     train_ids, val_ids = load_data()
     #data processing
@@ -95,10 +95,10 @@ def ray_execute(num_samples=10, max_epochs=10):
 
     config = {
     "hidden_layers": tune.choice([1,2]),
-    "hidden_nodes": tune.sample_from(lambda _: 2**np.random.randint(2, 5)),
+    "hidden_nodes": tune.sample_from(lambda _: 2**np.random.randint(8, 11)),
     "learning_rate": tune.loguniform(1e-4, 1e-1),
     "batch_size": tune.choice([2, 4, 8, 16]),
-    "sequence_length": tune.choice([10,25,50]),
+    "sequence_length": tune.choice([10,25,50,100,150,200]),
     #"data_dir": data_dir
 }
 
@@ -130,4 +130,3 @@ def load_data():
     return train_ids, val_ids
 
 ray_execute()
-2**11

@@ -46,6 +46,10 @@ val = data[data.date > "2019-07-11"].Song
 
 data3point0 = data[(data.date > "2009-01-01") & (data.date < "2019-07-12")]
 
+train = data[(data.date > "2009-01-01") & (data.date < "2019-01-01")].Song
+val = data[data.date >= "2019-01-01"].Song
+
+
 df = data3point0['Song'].copy()
 del data, data3point0
 
@@ -80,6 +84,9 @@ datasetv = torch.utils.data.DataLoader(dsv, batch_size=batch_size, shuffle=True)
 
 #xb, yb = next(iter(dataset))  #(batchsize x sequence_length), batchsize
 #xb.shape
+config = gen_config()
+model = networks.NextNet()
+
 model = networks.NextNet(vocab_size, hidden_nodes, hidden_layers)
 model.cuda()
 
@@ -107,4 +114,5 @@ for ii in range(25):
     winners.append(number)
 statistics.mean(winners)
 
+#### 
 
