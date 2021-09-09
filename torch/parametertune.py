@@ -117,9 +117,10 @@ def gen_config():
     config = {
         "hidden_layers": int(np.random.choice([1,2,3])),
         "hidden_nodes": 2**int(np.random.choice([7,8,9,10,11])),
-        "learning_rate": np.random.uniform(.08, .12, 1)[0],
-        "batch_size": int(np.random.choice([5,10,20])),
-        "sequence_length": int(np.random.choice([25,50,75,100,150,200])),
+        "learning_rate": np.random.uniform(.04, .12, 1)[0],
+        "batch_size": int(np.random.choice([5,10,20,50,100])),
+        #"sequence_length": int(np.random.choice([25,50,75,100,150,200])),
+        "sequence_length": int(np.random.choice([2,4,5,8,10,25]))
         #"data_dir": data_dir
     }
     print(config)
@@ -138,7 +139,7 @@ def gen_config():
 
 results = []
 
-for ii in range(50):
+for ii in range(5):
     results.append(train(gen_config(),train_ids, val_ids, epochs=100))
     print(ii)
 

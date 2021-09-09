@@ -1,4 +1,3 @@
-
 import math
 import torch
 import torch.nn as nn
@@ -104,5 +103,30 @@ class NextNet(nn.Module):
 
 
 
+
+class WildcardNet(nn.Module):
+    def __init__(self, vocab_size, hidden_nodes, hidden_layers=1):
+        super(WildcardNet, self).__init__()
+        n_embed = math.ceil(vocab_size**.25)
+        #network structure
+        self.layers = hidden_layers       
+        self.embeddings = nn.Embedding(vocab_size, n_embed) #output.shape = (batchsize, seq_length, n_embed)
+        self.first_dense = nn.Linear(n_embed, hidden_nodes)
+        #self.middle_dense = nn.Linear(hidden_nodes, hidden_nodes)
+        self.linears = nn.ModuleList([nn.Linear(hidden_nodes, hidden_nodes) for i in range(hidden_layers)])  
+        self.output_dense = nn.Linear(hidden_nodes, vocab_size)
+    def forward(self, inputs):
+        x = self.embeddings(inputs) #embedd vocab
+        x = self.first_dense(x) #first layer
+        x = nn.Relu(x)
+        # if self.hidden_layers > 1:
+        #     for ii in range(self.hidden_layers-1):
+        #         x = self.middle_dense(x) #hidden layers
+        #         x = nn.Relu(x)
+        for i, l in enumerate(self.linears):
+            x = self.linears[i // 2](x) + l(x)
+            x = nn.Relu(x)
+        x = self.output_dense(x) #output layer
+        return x
 
 

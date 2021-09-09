@@ -1,0 +1,7 @@
+ services:
+  standup:
+    build: .
+    stdin_open: true
+    tty: true
+    volume: database/data.json database/data.json
+    entrypoint: /bin/bash
